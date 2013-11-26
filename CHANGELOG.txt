@@ -1,17 +1,3 @@
-CHANGELOG 24 August 2011 Pierre Frisch
-Rev the source code to 3.4.1
-unregisterService() prevents subsequent registerService() - ID: 3163605
-Sometimes race condition causes to use a canceled timer - ID: 3183116
-How should addServiceListener be expected to work? - ID: 3186552
-ConcurrentModificationException is possible - ID: 3195594
-Registering twice same ServiceInfo blocks - ID: 3195632
-Error message on second register - ID: 3195656
-ServiceInfoImpl returns invalid IPV6 addresses - ID: 3290692
-Queries are sent over IPv4 even when binding to IPv6 address - ID: 3293105
-Synchronization issue - ID: 3298376
-Synchronization issue - ID: 3301269
-NPE is possible - ID: 3390168
-
 CHANGELOG 20 January 2011 Pierre Frisch
 Rev the source code to 3.4.0
 Android does not support IOException(String, Throwable) - ID: 3110982
